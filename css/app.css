@@ -20,6 +20,9 @@
 .image:after {
   content: 'This is me';
   color: #fff;
+  font-family: 'Trocchi', serif;
+
+}
 .center {
     position: absolute;
     left: 0;
@@ -28,3 +31,4 @@
     text-align: center;
     font-size: 18px;
     font-family: 'Cinzel', serif;
+}
