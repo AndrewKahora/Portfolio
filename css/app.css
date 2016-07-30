@@ -169,7 +169,7 @@
   transition:        all 0.2s;
 }
 .info .links .share:hover > .shareButtons {
-  width:58%;
+  width:28%;
   -webkit-transition:all 1s;
   -moz-transition:   all 1s;
   -o-transition:     all 1s;
