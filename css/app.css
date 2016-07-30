@@ -168,8 +168,10 @@
   -o-transition:     all 0.2s;
   transition:        all 0.2s;
 }
+
 i{
-    font-size: 18px 18px;
+    width: 28px;
+    height: 28px;
 }
 .info .links .share:hover > .shareButtons {
   width:58%;
