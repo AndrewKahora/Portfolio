@@ -90,7 +90,7 @@
   animation:        flipback2 1s forwards;
 }
 .card .info {
-  bottom:100px;
+  bottom:50px;
   right:-20px;
   width:100%;
   padding:20px 40px 20px 20px;
@@ -261,11 +261,11 @@ i{
   100%     {z-index:999;background:rgba(250,250,210,0);}
 }
 @-moz-keyframes flipback2 {
-  0%       {z-index:111;background:rgba(250,250,210,1);}
+  0%       {z-index:111;background:rgb(172, 172, 172);}
   100%     {z-index:999;background:rgba(250,250,210,0);}
 }
 @-o-keyframes flipback2 {
-  0%       {z-index:111;background:rgba(250,250,210,1);}
+  0%       {z-index:111;background:rgb(209, 209, 209);}
   100%     {z-index:999;background:rgba(250,250,210,0);}
 }
 @keyframes flipback2 {
@@ -273,4 +273,4 @@ i{
   100%     {z-index:999;background:rgba(250,250,210,0);}
 }
 
-html, body {background:#6a6a6a;}
+html, body {background:#a37a7a;}
