@@ -1,7 +1,9 @@
+/*
 .image img {
   width: 100%;
   vertical-align: top;
 }
+*/
 
 /*
 .image:after {
@@ -17,7 +19,7 @@
 }
 
 .image:hover:after {
-  opacity: 1;
+  opacity: ;
 }
 .image:after {
 
