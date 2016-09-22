@@ -12,6 +12,9 @@
 
 <?php
 if ($_POST['submit']) {
+  if (mail ($to, $subject, $body, $from)) {
+        echo '<p>Your message has been sent!</p>';
+
     /* Anything that goes in here is only performed if the form is submitted */
 }
 ?>
