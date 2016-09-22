@@ -1,22 +1,22 @@
 
 <?php
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-    $from = 'From: Druhs portfolio;
-    $to = 'cahndrew@gmail.com';
-    $subject = 'Hello';
 
-    $body = "From: $name\n E-Mail: $email\n Message:\n $message";
-?>
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+$to = 'myemail@email.com';
+$subject = $_POST['subject'];
+$human = $_POST['human'];
 
-<?php
-if ($_POST['submit']) {
-  if (mail ($to, $subject, $body, $from)) {
+$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+
+if ($_POST['submit'] && $human == '15') {
+    if (mail($to, $subject, $body)) {
         echo '<p>Your message has been sent!</p>';
-
-    /* Anything that goes in here is only performed if the form is submitted */
+    } else {
+        echo '<p>Something went wrong, go back and try again!</p>';
+    }
+} else if ($_POST['submit'] && $human != '15') {
+    echo '<p>You answered the anti-spam question incorrectly!</p>';
 }
 ?>
-
-
