@@ -4,7 +4,7 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$to = 'myemail@email.com';
+$to = 'cahndrew@gmail.com;
 $subject = $_POST['subject'];
 $human = $_POST['human'];
 
@@ -16,7 +16,5 @@ if ($_POST['submit'] && $human == '15') {
     } else {
         echo '<p>Something went wrong, go back and try again!</p>';
     }
-} else if ($_POST['submit'] && $human != '15') {
-    echo '<p>You answered the anti-spam question incorrectly!</p>';
 }
 ?>
