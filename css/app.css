@@ -99,10 +99,10 @@
   box-sizing:        border-box;
   background:rgba(255,255,255,0.4);
   z-index:555;
-  -webkit-animation:flipfront2 0.7s forwards;
-  -moz-animation:   flipfront2 0.7s forwards;
-  -o-animation:     flipfront2 0.7s forwards;
-  animation:        flipfront2 0.7s forwards;
+  -webkit-animation:flipfront2 5.7s forwards;
+  -moz-animation:   flipfront2 5.7s forwards;
+  -o-animation:     flipfront2 5.7s forwards;
+  animation:        flipfront2 5.7s forwards;
 }
 .card .info:before {
   content:'i';
