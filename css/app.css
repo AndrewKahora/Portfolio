@@ -84,10 +84,10 @@
 }
 .card img {
   z-index:999;
-  -webkit-animation:flipback2 1s forwards;
-  -moz-animation:   flipback2 1s forwards;
-  -o-animation:     flipback2 1s forwards;
-  animation:        flipback2 1s forwards;
+  -webkit-animation:flipback2 3s forwards;
+  -moz-animation:   flipback2 3s forwards;
+  -o-animation:     flipback2 3s forwards;
+  animation:        flipback2 3s forwards;
 }
 .card .info {
   bottom:50px;
@@ -118,10 +118,10 @@
   background:black;
 }
 .card:hover img {
-  -webkit-animation:flipback1 1s forwards;
-  -moz-animation:   flipback1 1s forwards;
-  -o-animation:     flipback1 1s forwards;
-  animation:        flipback1 1s forwards;
+  -webkit-animation:flipback1 3s forwards;
+  -moz-animation:   flipback1 3s forwards;
+  -o-animation:     flipback1 3s forwards;
+  animation:        flipback1 3s forwards;
 }
 .card:hover .info {
   -webkit-animation:flipfront1 5.7s forwards;
