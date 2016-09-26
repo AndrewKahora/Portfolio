@@ -124,10 +124,10 @@
   animation:        flipback1 1s forwards;
 }
 .card:hover .info {
-  -webkit-animation:flipfront1 0.7s forwards;
-  -moz-animation:   flipfront1 0.7s forwards;
-  -o-animation:     flipfront1 0.7s forwards;
-  animation:        flipfront1 0.7s forwards;
+  -webkit-animation:flipfront1 5.7s forwards;
+  -moz-animation:   flipfront1 5.7s forwards;
+  -o-animation:     flipfront1 5.7s forwards;
+  animation:        flipfront1 5.7s forwards;
 }
 .info h3 {
   font-size:1.8rem;
