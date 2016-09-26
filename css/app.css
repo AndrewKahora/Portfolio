@@ -84,10 +84,10 @@
 }
 .card img {
   z-index:999;
-  -webkit-animation:flipback2 3s forwards;
-  -moz-animation:   flipback2 3s forwards;
-  -o-animation:     flipback2 3s forwards;
-  animation:        flipback2 3s forwards;
+  -webkit-animation:flipback2 5s forwards;
+  -moz-animation:   flipback2 5s forwards;
+  -o-animation:     flipback2 5s forwards;
+  animation:        flipback2 5s forwards;
 }
 .card .info {
   bottom:50px;
@@ -99,10 +99,10 @@
   box-sizing:        border-box;
   background:rgba(255,255,255,0.4);
   z-index:555;
-  -webkit-animation:flipfront2 3.7s forwards;
-  -moz-animation:   flipfront2 3.7s forwards;
-  -o-animation:     flipfront2 3.7s forwards;
-  animation:        flipfront2 3.7s forwards;
+  -webkit-animation:flipfront2 5.7s forwards;
+  -moz-animation:   flipfront2 5.7s forwards;
+  -o-animation:     flipfront2 5.7s forwards;
+  animation:        flipfront2 5.7s forwards;
 }
 .card .info:before {
   content:'i';
