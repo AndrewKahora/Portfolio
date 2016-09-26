@@ -84,10 +84,10 @@
 }
 .card img {
   z-index:999;
-  -webkit-animation:flipback2 5s forwards;
-  -moz-animation:   flipback2 5s forwards;
-  -o-animation:     flipback2 5s forwards;
-  animation:        flipback2 5s forwards;
+  -webkit-animation:flipback2 5.7s forwards;
+  -moz-animation:   flipback2 5.7s forwards;
+  -o-animation:     flipback2 5.7s forwards;
+  animation:        flipback2 5.7s forwards;
 }
 .card .info {
   bottom:50px;
