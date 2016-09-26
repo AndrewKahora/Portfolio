@@ -145,7 +145,7 @@
 						var $itemImage = $('<img src="'+source+'" alt="Background" class="ac_bgimage"/>');
 						$itemImage.insertBefore($ac_bgimage);
 						adjustImageSize($itemImage);
-						$ac_bgimage.fadeOut(1500, function() {
+						$ac_bgimage.fadeOut(9500, function() {
 							$(this).remove();
 							$ac_bgimage = $itemImage;
 						});
