@@ -118,10 +118,10 @@
   background:black;
 }
 .card:hover img {
-  -webkit-animation:flipback1 3s forwards;
-  -moz-animation:   flipback1 3s forwards;
-  -o-animation:     flipback1 3s forwards;
-  animation:        flipback1 3s forwards;
+  -webkit-animation:flipback1 5s forwards;
+  -moz-animation:   flipback1 5s forwards;
+  -o-animation:     flipback1 5s forwards;
+  animation:        flipback1 5s forwards;
 }
 .card:hover .info {
   -webkit-animation:flipfront1 5.7s forwards;
