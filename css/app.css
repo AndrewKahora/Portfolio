@@ -77,17 +77,18 @@
 .card {
   position:relative;
   margin:5rem auto;
-  width:400px;
+  width:390px;
   height:550px;
   background:transparent;
   cursor:pointer;
 }
 .card img {
   z-index:999;
-  -webkit-animation:flipback2 5.7s forwards;
-  -moz-animation:   flipback2 5.7s forwards;
-  -o-animation:     flipback2 5.7s forwards;
-  animation:        flipback2 5.7s forwards;
+  -webkit-animation:flipback2 6.7s forwards;
+  -moz-animation:   flipback2 6.7s forwards;
+  -o-animation:     flipback2 6.7s forwards;
+  animation:        flipback2 6.7s forwards;
+  animation:        flipback2 6.7s forwards;
 }
 .card .info {
   bottom:50px;
@@ -99,10 +100,10 @@
   box-sizing:        border-box;
   background:rgba(255,255,255,0.4);
   z-index:555;
-  -webkit-animation:flipfront2 5.7s forwards;
-  -moz-animation:   flipfront2 5.7s forwards;
-  -o-animation:     flipfront2 5.7s forwards;
-  animation:        flipfront2 5.7s forwards;
+  -webkit-animation:flipfront2 6.7s forwards;
+  -moz-animation:   flipfront2 6.7s forwards;
+  -o-animation:     flipfront2 6.7s forwards;
+  animation:        flipfront2 6.7s forwards;
 }
 .card .info:before {
   content:'i';
@@ -118,16 +119,16 @@
   background:black;
 }
 .card:hover img {
-  -webkit-animation:flipback1 5.9s forwards;
-  -moz-animation:   flipback1 5.9 forwards;
-  -o-animation:     flipback1 5.9s forwards;
-  animation:        flipback1 5.9s forwards;
+  -webkit-animation:flipback1 6.9s forwards;
+  -moz-animation:   flipback1 6.9s forwards;
+  -o-animation:     flipback1 6.9s forwards;
+  animation:        flipback1 6.9s forwards;
 }
 .card:hover .info {
-  -webkit-animation:flipfront1 5.7s forwards;
-  -moz-animation:   flipfront1 5.7s forwards;
-  -o-animation:     flipfront1 5.7s forwards;
-  animation:        flipfront1 5.7s forwards;
+  -webkit-animation:flipfront1 6.9s forwards;
+  -moz-animation:   flipfront1 6.9s forwards;
+  -o-animation:     flipfront1 6.9s forwards;
+  animation:        flipfront1 6.9s forwards;
 }
 .info h3 {
   font-size:1.8rem;
