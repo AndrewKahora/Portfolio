@@ -51,226 +51,97 @@
 }
 
 
-<!--- new -->
-
-@import url("http://fonts.googleapis.com/css?family=Inconsolata:700,400");
-@import url('http://weloveiconfonts.com/api/?family=entypo');
-* {
-  margin:0px;
-  padding:0px;
-  font-family: 'Inconsolata', sans-serif;
-}
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-  line-height:1.8rem;
-  font-size:1.6rem;
-  font-weight:normal;
-}
-.card img, .card .info, .card .info:before {
-  position:absolute;
-}
-.card img, .card .info {
-  -webkit-box-shadow:0px 0px 20px rgba(0,0,0,0.15);
-  -moz-box-shadow:   0px 0px 20px rgba(0,0,0,0.15);
-  box-shadow:        0px 0px 20px rgba(0,0,0,0.15);
-}
-.card {
-  position:relative;
-  margin:5rem auto;
-  width:400px;
-  height:550px;
-  background:transparent;
-  cursor:pointer;
-}
-.card img {
-  z-index:999;
-  -webkit-animation:flipback2 1s forwards;
-  -moz-animation:   flipback2 1s forwards;
-  -o-animation:     flipback2 1s forwards;
-  animation:        flipback2 1s forwards;
-}
-.card .info {
-  bottom:50px;
-  right:-20px;
-  width:100%;
-  padding:20px 40px 20px 20px;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:   border-box;
-  box-sizing:        border-box;
-  background:rgba(255,255,255,0.4);
-  z-index:555;
-  -webkit-animation:flipfront2 0.7s forwards;
-  -moz-animation:   flipfront2 0.7s forwards;
-  -o-animation:     flipfront2 0.7s forwards;
-  animation:        flipfront2 0.7s forwards;
-}
-.card .info:before {
-  content:'i';
-  top:0px;
-  right:0px;
-  width:20px;
-  height:20px;
-  text-align:center;
-  font-weight:700;
-  font-size:1rem;
-  line-height:20px;
-  color:white;
-  background:black;
-}
-.card:hover img {
-  -webkit-animation:flipback1 1s forwards;
-  -moz-animation:   flipback1 1s forwards;
-  -o-animation:     flipback1 1s forwards;
-  animation:        flipback1 1s forwards;
-}
-.card:hover .info {
-  -webkit-animation:flipfront1 0.7s forwards;
-  -moz-animation:   flipfront1 0.7s forwards;
-  -o-animation:     flipfront1 0.7s forwards;
-  animation:        flipfront1 0.7s forwards;
-}
-.info h3 {
-  font-size:1.8rem;
-  font-weight:400;
-  text-transform:uppercase;
-  letter-spacing:2px;
-  margin-bottom:1rem;
-}
-.info .links {
-  list-style-type:none;
-  margin-top:1.2rem;
-}
-.info .links li a,
-.info .links .shareButtons,
-.info .links .shareButtons a {
-  display:block;
-}
-.info .links li a {
-  width:39%;
-  height:1.8rem;
-  float:left;
-  text-align:center;
-  background:black;
-  color:white;
-  text-decoration:none;
-  line-height:1.8rem;
-}
-.info .links li a:hover {
-  text-decoration:line-through;
-}
-.info .links li:first-child a {
-  margin-right:2%;
-}
-.info .links .shareButtons {
-  width:10%;
-  height:1.8rem;
-  overflow:hidden;
-  -webkit-transition:all 0.2s;
-  -moz-transition:   all 0.2s;
-  -o-transition:     all 0.2s;
-  transition:        all 0.2s;
-}
-
-i{
-    width: 28px;
-    height: 28px;
-}
-.info .links .share:hover > .shareButtons {
-  width:58%;
-  -webkit-transition:all 1s;
-  -moz-transition:   all 1s;
-  -o-transition:     all 1s;
-  transition:        all 1s;
-}
-.info .links .shareButtons a {
-  width:2.5rem;
-  float:left;
-  background:transparent;
-  color:rgba(0, 0, 0, 0.7);
-  -webkit-transition:all 0.2s;
-  -moz-transition:   all 0.2s;
-  -o-transition:     all 0.2s;
-  transition:        all 0.2s;
-}
-.info .links .shareButtons a:hover {
-  text-decoration:none;
-  color:rgb(255, 255, 255);
-  -webkit-transform:scale(1.3);
-  -moz-transform:   scale(1.3);
-  -o-transform:     scale(1.3);
-  -ms-transform:    scale(1.3);
-  transform:        scale(1.3);
-}
-/* move card to frontside */
-@-webkit-keyframes flipfront1 {
-  0%, 100% {-webkit-transform:translateX(0px);}
-  50%      {-webkit-transform:translateX(380px);}
-}
-@-moz-keyframes flipfront1 {
-  0%, 100% {-moz-transform:translateX(0px);}
-  50%      {-moz-transform:translateX(380px);}
-}
-@-o-keyframes flipfront1 {
-  0%, 100% {-o-transform:translateX(0px);}
-  50%      {-o-transform:translateX(380px);}
-}
-@keyframes flipfront1 {
-  0%, 100% {transform:translateX(0px);}
-  50%      {transform:translateX(380px);}
-}
-
-/* move card to backside */
-@-webkit-keyframes flipfront2 {
-  0%, 100% {-webkit-transform:translateX(0px);}
-  50%      {-webkit-transform:translateX(380px);}
-}
-@-moz-keyframes flipfront2 {
-  0%, 100% {-moz-transform:translateX(0px);}
-  50%      {-moz-transform:translateX(380px);}
-}
-@-o-keyframes flipfront2 {
-  0%, 100% {-o-transform:translateX(0px);}
-  50%      {-o-transform:translateX(380px);}
-}
-@keyframes flipfront2 {
-  0%, 100% {transform:translateX(0px);}
-  50%      {transform:translateX(380px);}
-}
-
-/* move img to backside */
-@-webkit-keyframes flipback1 {
-  0%       {z-index:999;background:rgba(250,250,210,0);}
-  100%     {z-index:111;background:rgba(250,250,210,1);}
-}
-@-moz-keyframes flipback1 {
-  0%       {z-index:999;background:rgba(250,250,210,0);}
-  100%     {z-index:111;background:rgba(250,250,210,1);}
-}
-@-o-keyframes flipback1 {
-  0%       {z-index:999;background:rgba(250,250,210,0);}
-  100%     {z-index:111;background:rgba(250,250,210,1);}
-}
-@keyframes flipback1 {
-  0%       {z-index:999;background:rgba(250,250,210,0);}
-  100%     {z-index:111;background:rgba(250,250,210,1);}
-}
-
-/* move img to frontside */
-@-webkit-keyframes flipback2 {
-  0%       {z-index:111;background:rgba(250,250,210,1);}
-  100%     {z-index:999;background:rgba(250,250,210,0);}
-}
-@-moz-keyframes flipback2 {
-  0%       {z-index:111;background:rgb(172, 172, 172);}
-  100%     {z-index:999;background:rgba(250,250,210,0);}
-}
-@-o-keyframes flipback2 {
-  0%       {z-index:111;background:rgb(209, 209, 209);}
-  100%     {z-index:999;background:rgba(250,250,210,0);}
-}
-@keyframes flipback2 {
-  0%       {z-index:111;background:rgba(250,250,210,1);}
-  100%     {z-index:999;background:rgba(250,250,210,0);}
-}
 
 html, body {background:#37d379;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.loader {
+  width: 400px;
+  height: 40px;
+  background-color: #ddd;
+  top: 50%;
+  left: 50%;
+  margin: -40px -200px;
+  position: absolute;
+  border-radius: 100px;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.05);
+}
+
+.loader:after {
+  border-radius: 100px;
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  left: 2px;
+  top: 2px;
+  bottom: 2px;
+  right: 360px;
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-easing-function: linear;
+  animation-iteration-count: infinite;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes slide {
+  0% {
+    right: 360px;
+    left: 2px;
+  }
+  5% {
+    left: 2px;
+  }
+  50% {
+    right: 2px;
+    left: 360px;
+  }
+  55% {
+    right: 2px;
+  }
+  100% {
+    right: 360px;
+    left: 2px;
+  }
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}

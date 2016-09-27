@@ -8,12 +8,15 @@
         <link rel="icon" type="image/gif/png" href="img/head-favicon.png">
 </head>
 <body>
+    <div class='loader'></div>
 		<!-- Home -->
 		<div id="home" class="content">
+            <div class="col-6 col-m-9">
 			<h2>Home</h2>
 			<p> Am Andrew and here you'll gett to discover much about me lets take a tour</p>
 			<p>I have a passion for programming and have mastered some basic jquery, javascript, html and css.Currently venturing into python and later Android studio</p>
 		</div>
+            </div>
 		<!-- /Home -->
 
 		<!-- Portfolio -->
@@ -46,28 +49,34 @@
 		<div id="contact" class="panel">
 			<div class="content">
 				<h2>Contact</h2>
+
 				<p>Feel free to contact me.</p>
 				<p>You can also drop me a message anytime ;) .</p>
-				<form id="form">
-					<p><label>Your Name</label><input type="text" /></p>
-					<p><label>Your Email</label><input type="text" /></p>
-					<p><label>Your Message</label><textarea></textarea></p>
-                    <input type="submit" name="submit" value="Send">
+
+
+
+				<form id="form" method="post" action="http://formspree.io/cahndrew@gmail.com">
+					<p><label>Your Name</label><input name="name" /></p>
+					<p><label>Your Email</label><input name="email" type="email"/></p>
+					<p><label>Your Message</label><textarea name="message"></textarea></p>
+                    <input id="submit" type="submit" name="submit" value="Submit">
 				</form>
+
 			</div>
 		</div>
 		<!-- /Contact -->
 
 		<!-- Header with Navigation -->
 		<div id="header">
+            <div class="col-3 col-m-3 menu">
 			<h1>WELCOME TO MY PORTFOLIO</h1>
 			<ul id="navigation">
 				<li><a id="link-home" href="#home">Home</a></li>
 				<li><a id="link-portfolio" href="#portfolio">Portfolio</a></li>
 				<li><a id="link-about" href="#about">About Me</a></li>
 				<li><a id="link-contact" href="#contact">Contact</a></li>
-                <li><a id="link-exit" href="index.html">EXIT</a></li>
             </ul>
+    </div>
     </div>
 </body>
 </html>
